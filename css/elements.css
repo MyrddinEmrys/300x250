@@ -1,0 +1,66 @@
+/*elements.css*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#banner {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative !important;
+    background-repeat: no-repeat;
+    border: solid 1px #666;
+    width: 300px;
+    height: 250px;
+    cursor: pointer;
+}
+
+#banner div {
+    position: absolute;
+}
+
+.visible_on {
+    opacity: 1;
+}
+
+/*STEP1*/
+.bg {
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 250px;
+    background-color: #458975;
+
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: .1;
+}
+
+.button{
+    position: absolute;
+    top: 200px;    
+    left: 30px;
+    opacity: 0;
+}
+
+.button01, .button02, .button03{
+    color: #258798;
+}
+
+.button02{
+    margin-left: 60px;
+}
+
+.button03{
+    left: 80px;
+}
